@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical" android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <Button
+            android:id="@+id/disk_input"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/disk_input"/>
+
+    <Button
+            android:id="@+id/disk_output"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:text="@string/disk_output"/>
+
+    <ImageView
+            android:id="@+id/disk_iv"
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</FrameLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <TextView
+            android:id="@+id/tv_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+
+    <Button
+            android:id="@+id/pri_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showContent"
+            android:text="@string/pri_0"/>
+
+    <Button
+            android:id="@+id/pri_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showContent"
+            android:text="@string/pri_1"/>
+
+
+    <Button
+            android:id="@+id/pub_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showContent"
+            android:text="@string/pub_0"/>
+
+    <Button
+            android:id="@+id/pub_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showContent"
+            android:text="@string/pub_1"/>
+
+    <Button
+            android:id="@+id/custom_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showContent"
+            android:text="@string/custom_set"/>
+
+    <Button
+            android:id="@+id/custom_get"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showContent"
+            android:text="@string/custom_get"/>
+
+
+</LinearLayout>

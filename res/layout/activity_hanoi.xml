@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.example.luna.hanoi.HanoiLayout
+            android:id="@+id/hanoi_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="100dp"
+    ></com.example.luna.hanoi.HanoiLayout>
+
+    <TextView
+            android:id="@+id/move_count"
+            android:layout_gravity="bottom|left"
+            android:text="@string/move_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/mission_success"
+            android:layout_gravity="bottom|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/increase"
+            android:text="@string/increase"
+            android:onClick="hanoi"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button android:id="@+id/decrease"
+            android:onClick="hanoi"
+            android:text="@string/decrease"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</FrameLayout>

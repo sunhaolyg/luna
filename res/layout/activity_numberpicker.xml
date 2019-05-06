@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/custom_action_bar"
+             android:id="@+id/custom_action_bar"
+             android:layout_width="match_parent"
+             android:layout_height="48dp"
+    />
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+    >
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="110dp">
+
+
+                <com.example.luna.view.custom.NumberPickerCompat
+                        android:id="@+id/np1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"/>
+
+                <com.example.luna.view.custom.NumberPickerCompat
+                        android:id="@+id/np2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"/>
+
+            </LinearLayout>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#979797"/>
+
+            <RelativeLayout
+                    android:id="@+id/repeat"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:paddingLeft="15dp"
+                    android:onClick="details"
+                    android:paddingRight="15dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="14sp"
+                        android:text="@string/repeat"/>
+
+                <TextView
+                        android:id="@+id/repeat_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:textColor="#979797"
+                        android:textSize="12sp"
+                        android:text="@string/week"/>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/small_return"
+                        android:layout_alignParentRight="true"/>
+
+
+            </RelativeLayout>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#979797"/>
+
+            <RelativeLayout
+                    android:id="@+id/rington"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:onClick="details"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="14sp"
+                        android:text="@string/rington"/>
+
+                <TextView
+                        android:id="@+id/rington_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:textColor="#979797"
+                        android:textSize="12sp"
+                        android:text="@string/defaul"/>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/small_return"
+                        android:layout_alignParentRight="true"/>
+
+
+            </RelativeLayout>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#979797"/>
+
+            <RelativeLayout
+                    android:id="@+id/vibrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:onClick="details"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp">
+
+                <TextView
+                        android:id="@+id/vibrate_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="14sp"
+                        android:text="@string/virb"/>
+
+                <Switch
+                        android:id="@+id/vibrate_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:switchMinWidth="20dp"
+                        android:textOn=""
+                        android:textOff=""
+                        android:thumb="@drawable/thumb"
+                        android:track="@drawable/track"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"/>
+
+            </RelativeLayout>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#979797"/>
+
+            <RelativeLayout
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:onClick="details"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="14sp"
+                        android:text="@string/name"/>
+
+                <TextView
+                        android:id="@+id/name_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="15dp"
+                        android:textColor="#979797"
+                        android:textSize="12sp"
+                        android:text="@string/morning"/>
+
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/small_return"
+                        android:layout_alignParentRight="true"/>
+
+
+            </RelativeLayout>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="#979797"/>
+
+            <Button
+                    android:id="@+id/delete"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/delete"
+                    android:layout_marginTop="27dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/red"
+                    android:background="@drawable/circle_rect"
+            />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

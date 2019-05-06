@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:id="@+id/btn_object"
+            android:text="@string/btn_object"
+            android:onClick="startAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/btn_animatorset"
+            android:text="@string/btn_animatorset"
+            android:onClick="startAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btn_value"
+            android:text="@string/btn_value"
+            android:onClick="startAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/btn_interpolator"
+            android:text="@string/btn_interpolator"
+            android:onClick="startAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/btn_valueholder"
+            android:text="@string/btn_valueholder"
+            android:onClick="startAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/btn_evaluator"
+            android:text="@string/btn_evaluator"
+            android:onClick="startAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    <ImageView
+            android:id="@+id/img_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/circular"
+            android:visibility="visible" />
+
+</LinearLayout>

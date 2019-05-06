@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyView">
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="apiKey" format="string"/>
+        <attr name="frameDuration" format="integer"/>
+        <attr name="focusable" format="boolean"/>
+        <attr name="orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="sss">
+        <attr name="size" format="dimension"/>
+        <attr name="hint" format="string"/>
+        <attr name="type" format="dimension">
+            <enum name="left" value="1"/>
+            <enum name="right" value="2"/>
+            <enum name="top" value="3"/>
+            <enum name="bottom" value="4"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="suibianxie2">
+        <attr name="size" format="dimension"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="MobileIcon">
+        <attr name="foregroundColor" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+    </declare-styleable>
+
+</resources>

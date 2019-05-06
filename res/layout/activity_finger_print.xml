@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:id="@+id/finger_dis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dis"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textColor="#007dff"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="bottom"
+            android:layout_marginRight="8dp"/>
+
+    <Button
+            android:id="@+id/finger_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:textSize="14sp"
+            android:padding="10dp"
+            android:textColor="#007dff"
+            android:background="@null"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="8dp"/>
+
+</FrameLayout>

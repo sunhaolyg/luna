@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/custom2"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+        />
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="6px"
+                android:layout_alignParentBottom="true"
+                android:background="#979797"/>
+
+        <RelativeLayout
+                android:id="@+id/sunday"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:tag="unchecked"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="14sp"
+                    android:text="@string/sunday"/>
+
+
+            <ImageView
+                    android:id="@+id/sunday_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/circular"
+                    android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#979797"/>
+
+
+        <RelativeLayout
+                android:id="@+id/monday"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:tag="unchecked"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="14sp"
+                    android:text="@string/monday"/>
+
+
+            <ImageView
+                    android:id="@+id/monday_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/circular"
+                    android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#979797"/>
+
+
+        <RelativeLayout
+                android:id="@+id/tuesday"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:tag="unchecked"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="14sp"
+                    android:text="@string/tuesday"/>
+
+
+            <ImageView
+                    android:id="@+id/tuesday_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/circular"
+                    android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#979797"/>
+
+
+        <RelativeLayout
+                android:id="@+id/wednesday"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:tag="unchecked"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="14sp"
+                    android:text="@string/wednesday"/>
+
+
+            <ImageView
+                    android:id="@+id/wednesday_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/circular"
+                    android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#979797"/>
+
+        <RelativeLayout
+                android:id="@+id/thursday"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:tag="unchecked"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="14sp"
+                    android:text="@string/thursday"/>
+
+
+            <ImageView
+                    android:id="@+id/thursday_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/circular"
+                    android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#979797"/>
+
+        <RelativeLayout
+                android:id="@+id/friday2"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:tag="unchecked"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="14sp"
+                    android:text="@string/friday2"/>
+
+
+            <ImageView
+                    android:id="@+id/friday2_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/circular"
+                    android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#979797"/>
+
+        <RelativeLayout
+                android:id="@+id/saturday"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:tag="unchecked"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="14sp"
+                    android:text="@string/saturday"/>
+
+
+            <ImageView
+                    android:id="@+id/saturday_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/circular"
+                    android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#979797"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancel"
+                    android:layout_marginTop="27dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/red"
+                    android:background="@null"
+                    android:layout_marginBottom="15dp"
+            />
+
+            <Button
+                    android:id="@+id/ensure"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ensure2"
+                    android:layout_marginTop="27dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/red"
+                    android:background="@null"
+                    android:layout_marginBottom="15dp"
+            />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

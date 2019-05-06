@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card="http://schemas.android.com/apk/res/com.example.luna"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/vg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <Button
+                android:id="@+id/leetcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/leetcode"/>
+
+        <Button
+                android:id="@+id/poker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/poker"/>
+
+
+        <Button
+                android:id="@+id/hanoi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/hanoi"/>
+
+        <Button
+                android:id="@+id/kill"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/kill"/>
+
+        <Button
+                android:id="@+id/thread"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/thread"/>
+
+        <Button
+                android:id="@+id/wall_paper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/wall_paper"/>
+
+        <Button
+                android:id="@+id/xml"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/xml"/>
+
+        <Button
+                android:id="@+id/pdf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/pdf"/>
+
+        <Button
+                android:id="@+id/music"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/music"/>
+
+        <Button
+                android:id="@+id/number_game"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/number_game"/>
+
+        <Button
+                android:id="@+id/circlesport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/circlesport"/>
+
+        <Button
+                android:id="@+id/ripple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/ripple"/>
+
+        <Button
+                android:id="@+id/markfilter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/markfilter"/>
+
+        <Button
+                android:id="@+id/click"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/click"/>
+
+        <Button
+                android:id="@+id/txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/txt"/>
+        <Button
+                android:id="@+id/write"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/write"/>
+
+        <Button
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/time"/>
+
+        <Button
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/view"/>
+
+        <Button
+                android:id="@+id/provision"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/provision"/>
+
+        <Button
+                android:id="@+id/r10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/r10"/>
+
+        <Button
+                android:id="@+id/blur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/blur"/>
+
+        <Button
+                android:id="@+id/java"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/java"/>
+
+        <Button
+                android:id="@+id/note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/note"/>
+
+        <Button
+                android:id="@+id/bonus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/bonus"/>
+
+        <Button
+                android:id="@+id/sound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/sound"/>
+
+        <Button
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/layout"/>
+
+        <Button
+                android:id="@+id/dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/dialog"/>
+
+        <Button
+                android:id="@+id/storage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/storage"/>
+
+        <Button
+                android:id="@+id/notification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/notifications"/>
+        <Button
+                android:id="@+id/bitmap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/bitmap"/>
+        <Button
+                android:id="@+id/panel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/panel"/>
+
+        <Button
+                android:id="@+id/interfaces"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="buttonClick"
+                android:text="@string/interfaces"/>
+        <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="20dp"
+                android:textOn=""
+                android:textOff=""
+                android:thumb="@drawable/thumb"
+                android:track="@drawable/track"/>
+        <com.example.luna.view.custom.CardTextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card:textSize="100dp"
+                card:apiKey="yunjiasu"
+                card:frameDuration="1000"
+                card:focusable="true"
+                card:orientation="vertical"
+        />
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/qwe"
+        />
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_wifi_signal_0"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_wifi_signal_1"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_wifi_signal_2"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_wifi_signal_3"/>
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_wifi_signal_4"/>
+
+            <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_wifi_signal_lock"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_wifi"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_wifi_f"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/wifi_signal"/>
+
+
+
+        </LinearLayout>
+        <ImageView
+                android:id="@+id/mobile_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        />
+
+    </LinearLayout>
+
+</ScrollView>

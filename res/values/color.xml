@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+
+    <color name="switch_accent_color">#004eff</color>
+    <drawable name="track_off">#eecccc</drawable>
+    <drawable name="track_on">#ff0000</drawable>
+
+    <color name="backgroundColor">@android:color/darker_gray</color>
+    <color name="gray">#cccccc</color>
+    <color name="language_gray">#8c8c8c</color>
+
+    <color name="charging_dot_color">#9af8a7</color>
+    <color name="charging_arc_color">#bc36ff00</color>
+    <color name="charging_bottom_color">#8036ff00</color>
+    <color name="charging_stroke_color">#8095cecd</color>
+    <color name="charging_color">#bc36ff00</color>
+    <color name="ruyi_blue">#007dff</color>
+
+</resources>

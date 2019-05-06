@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:gravity="center"
+             android:orientation="horizontal"
+             android:layout_height="match_parent">
+
+    <ImageView
+            android:id="@+id/dialog_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="#4b4b4b"/>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="237dp"
+            android:layout_marginLeft="100dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dialog_restart"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:text="@string/dialog_restart"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="237dp"
+            android:layout_marginLeft="200dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dialog_shut_down"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:text="@string/dialog_shut_down"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

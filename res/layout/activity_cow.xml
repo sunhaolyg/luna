@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:id="@+id/cow_fresh"
+            android:onClick="cow"
+            android:text="@string/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/cow_show"
+            android:onClick="cow"
+            android:text="@string/bullcow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/register_user"
+            android:onClick="cow"
+            android:text="@string/register_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    <Button
+            android:id="@+id/create_room"
+            android:onClick="cow"
+            android:text="@string/create_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/room_id"
+            android:inputType="number"
+            android:minWidth="100dp"
+            android:hint="room_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/user_id"
+            android:inputType="number"
+            android:minWidth="100dp"
+            android:hint="user_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/join_room"
+            android:onClick="cow"
+            android:text="@string/join_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

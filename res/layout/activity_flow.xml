@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.luna.view.custom.FlowLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="@string/welcome" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="@string/it" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="@string/love" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="@string/hard" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="@string/cast" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="@string/hard" />
+
+        <TextView
+            style="@style/text_flag_01"
+            android:text="@string/can" />
+    </com.example.luna.view.custom.FlowLayout>
+
+</LinearLayout>

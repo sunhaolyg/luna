@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.luna"
+          android:versionCode="1"
+          android:versionName="1.0"
+          android:sharedUserId="android.uid.system"
+>
+
+    <uses-sdk
+            android:minSdkVersion="14"
+            android:targetSdkVersion="27"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.HOTKNOT"/>
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+    >
+        <activity
+                android:name=".base.MainActivity"
+                android:label="@string/app_name"
+                android:theme="@style/AppTheme"
+                android:screenOrientation="portrait"
+        >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LayoutActivity"
+
+        >
+            <intent-filter>
+                <action android:name="android.settings.BLUETOOTH_SETTINGS"/>
+                <action android:name="con.zhougb.test.second"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.blur.BlurActivity"/>
+        <activity android:name=".activity.curve.CurveActivity"/>
+        <activity android:name=".activity.drawable.DrawActivity"/>
+        <activity android:name=".activity.paint.PaintActivity"/>
+        <activity android:name=".activity.paint.PaintBaseActivity"/>
+        <activity android:name=".activity.shader.BitmapShaderActivity"/>
+        <activity android:name=".activity.switchv.SwitchActivity"/>
+
+        <activity android:name=".activity.view.CustomViewActivity"/>
+        <activity android:name=".activity.view.FlowLayoutActivity"/>
+        <activity android:name=".activity.view.ListViewActivity"/>
+        <activity android:name=".activity.view.ViewActivity"/>
+        <activity android:name=".activity.view.WaterFallActivity"/>
+
+        <activity android:name=".activity.xfermode.XFerMode"/>
+        <activity android:name=".animation.ObjectAnimatorActivity"/>
+
+        <activity android:name=".sounds.AnimationSoundsActivity"/>
+        <activity android:name=".sounds.NotificationSoundActivity"/>
+        <activity android:name=".sounds.RingtoneSoundActivity"/>
+        <activity android:name=".sounds.SoundActivity"/>
+        <activity android:name=".sounds.SoundAlarmsActivty"/>
+        <activity android:name=".sounds.UISoundActivity"/>
+
+        <activity android:name=".bezier.Bezier2Activity"/>
+        <activity android:name=".bezier.Bezier3Activity"/>
+
+        <activity android:name=".bonus.BonusActivity"/>
+        <activity android:name=".java.ArrayActivity"/>
+        <activity android:name=".java.StrategyActivity"/>
+        <activity android:name=".java.TemplateActivity"/>
+        <activity android:name=".note.NoteActivity"/>
+
+        <activity android:name=".scroller.ScrollerActivity"/>
+        <activity android:name=".activity.DialogActivity"/>
+        <activity android:name=".activity.StorageActivity"/>
+        <activity android:name=".activity.WaveActivity"/>
+        <activity android:name=".activity.NotificationActivity"/>
+        <activity android:name=".activity.view.RotationActivity"
+                  android:theme="@style/AppTheme"/>
+        <activity android:name=".activity.BitmapActivity"/>
+        <activity android:name=".activity.NumberPickerActivity"
+                  android:theme="@style/AppTheme"
+        />
+        <activity android:name=".activity.panel.PanelActivity"/>
+
+        <activity android:name=".activity.StopWatchActivity"/>
+        <activity android:name=".activity.SpinnerActivity"/>
+        <activity android:name=".activity.ArrowActivity"/>
+        <activity android:name=".activity.interfaces.InterfaceActivity"/>
+        <activity android:name=".activity.launchericon.LauncherIconActivity"/>
+        <activity android:name=".r10.RegisterActivity"/>
+        <activity android:name=".privision.ProvisionActivity"
+                  android:theme="@style/Provision"/>
+
+        <activity android:name=".view.recyclerview.RecyclerViewActivity"/>
+        <!--android:theme="@style/Settings.NoActionBar"-->
+
+        <activity android:name=".view.touch.FrameLayoutActivity"/>
+        <activity android:name=".privision.AgreementActivity"
+                  android:theme="@style/Provision"/>
+        <activity android:name=".privision.AgreementDetailActivity"/>
+        <activity android:name=".privision.FingerPrintActivity"/>
+        <activity android:name=".time.TimeActivity"/>
+        <activity android:name=".write.WriteActivity"/>
+        <activity android:name=".txt.TXTActivity"/>
+        <activity android:name=".click.ClickActivity"/>
+        <activity android:name=".markfilter.MarkFilterActivity"/>
+        <activity android:name=".ripple.RippleActivity"/>
+        <activity android:name=".sports.CirleSportsActivity"/>
+        <activity android:name=".number.NumberGameActivity"/>
+        <activity android:name=".music.MusicActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:mimeType="text/html"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="application/xhtml+xml"/>
+                <data android:mimeType="application/vnd.wap.xhtml+xml"/>
+            </intent-filter>
+        </activity>
+
+        <activity-alias
+                android:name="umberGameActivity"
+                android:targetActivity=".number.NumberGameActivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+
+        <activity android:name=".view.dn.path.BezierActivity"/>
+        <activity android:name=".view.dn.pathmeasure.PathMeasureActivity"/>
+        <activity android:name=".view.dn.DNActivity"/>
+        <activity android:name=".view.dn.pie.PieActivity"/>
+        <activity android:name=".view.dn.baseanim.BaseAnimatorActivity"/>
+        <activity android:name=".view.dn.baseanim.SplashAnimatorActivity"/>
+        <activity android:name=".view.dn.attr.AttrActivity"/>
+        <activity android:name=".xml.InvoiceActivity"/>
+        <activity android:name=".xml.XMLActivity"/>
+
+        <activity android:name=".wallpaper.WallPaperActivity"/>
+        <activity android:name=".wallpaper.SaveImageActivity"/>
+        <activity android:name=".wallpaper.ShowImageActivity"/>
+        <activity android:name=".wallpaper.GalleryActivity"/>
+        <activity android:name=".wallpaper.DiskLruCacheActivity"/>
+        <activity android:name=".wallpaper.ThreadShowActivity"/>
+        <activity android:name=".wallpaper.GalleryDetailsActivity"/>
+        <activity android:name=".thread.ThreadActivity"/>
+        <activity android:name=".thread.ThreadNameActivity"/>
+        <activity android:name=".thread.ThreadPoolActivity"/>
+
+        <service
+                android:exported="true"
+                android:name=".service.DownloadService"/>
+        <activity android:name=".kill.KillActivity"/>
+        <activity android:name=".hanoi.HanoiActivity"/>
+        <activity android:name=".notification.NotificationActivity"/>
+        <activity android:name=".poker.PokerActivity"/>
+        <activity android:name=".poker.cow.CowActivity"/>
+        <activity android:name=".poker.gold.GoldActivity"/>
+        <activity android:name=".activity.interfaces.InterfaceActivity"/>
+        <activity android:name=".poker.room.RoomActivity"/>
+        <activity android:name=".leetcode.BeforeActivity"/>
+
+
+    </application>
+
+</manifest>

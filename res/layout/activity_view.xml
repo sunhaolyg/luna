@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <Button
+                android:id="@+id/dn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/dn"/>
+
+        <Button
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/recyclerview"/>
+
+        <Button
+                android:id="@+id/frame_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/frame_layout"/>
+
+        <Button
+                android:id="@+id/custom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/custom"/>
+
+
+        <Button
+                android:id="@+id/flow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/flow"/>
+
+        <Button
+                android:id="@+id/waterfall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/waterfall"/>
+
+        <Button
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/listview"/>
+
+        <Button
+                android:id="@+id/xfermode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/xfermode"/>
+
+        <Button
+                android:id="@+id/bitmapshader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/bitmapshader"/>
+
+        <Button
+                android:id="@+id/draw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/draw"/>
+
+        <Button
+                android:id="@+id/path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/path"/>
+
+        <Button
+                android:id="@+id/switchv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/sitch"/>
+
+        <Button
+                android:id="@+id/scroller"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/scroller"/>
+
+        <Button
+                android:id="@+id/curve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/curve"/>
+
+        <Button
+                android:id="@+id/bezier2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/bezier2"/>
+
+        <Button
+                android:id="@+id/bezier3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/bezier3"/>
+        <Button
+                android:id="@+id/wave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/wave"/>
+
+        <Button
+                android:id="@+id/rotation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/rotate"/>
+
+        <Button
+                android:id="@+id/numberpick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/numberpick"/>
+
+        <Button
+                android:id="@+id/watch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/watch"/>
+
+        <Button
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/spinner"/>
+        <Button
+                android:id="@+id/arrow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/arrow"/>
+        <Button
+                android:id="@+id/launcher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="view"
+                android:text="@string/launcher"/>
+    </LinearLayout>
+
+
+</ScrollView>

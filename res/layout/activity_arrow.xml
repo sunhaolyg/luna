@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical" android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.example.luna.view.custom.ArrowView
+            android:id="@+id/arrow_ani"
+            android:layout_width="100dp"
+            android:layout_height="200dp"/>
+
+    <ImageView
+            android:id="@+id/iv_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/up"
+    />
+
+    <FrameLayout
+            android:id="@+id/click_snooze"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#ec11ec"
+            android:layout_gravity="center_vertical">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="100dp"
+                android:textSize="32sp"
+        />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/click_snooze"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="50dp"
+        />
+
+    </FrameLayout>
+
+    <FrameLayout
+            android:id="@+id/push_up"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#ecec00"
+            android:layout_gravity="bottom">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stop_clock"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="50dp"
+        />
+
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:text="@string/click_snooze"
+                style="@style/details_dialog_title_textview"
+        />
+
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancel"
+                    android:layout_marginTop="27dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/ruyi_blue"
+                    android:background="@drawable/circle_rect"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+            />
+
+            <Button
+                    android:id="@+id/ensure"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ensure2"
+                    android:layout_marginTop="27dp"
+                    android:textSize="15dp"
+                    android:textColor="@color/ruyi_blue"
+                    android:background="@drawable/circle_rect"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="15dp"
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

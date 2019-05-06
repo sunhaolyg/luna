@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <com.example.luna.markfilter.MarkFilterView
+            android:id="@+id/mark_filter_charging"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center_horizontal"
+            android:visibility="gone"/>
+
+    <Button
+            android:id="@+id/mark_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="filter"
+            android:text="@string/markfilter"/>
+
+
+</FrameLayout>
